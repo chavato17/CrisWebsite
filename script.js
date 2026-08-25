@@ -1,13 +1,13 @@
-words = [
+const words = [
     "CRIS",
     "CJ",
     "AYUBAN",
     "PONG"
 ];
 
-index = 0;
-textElement = document.getElementById("changing-text");
-wrapperElement = document.getElementById("rotator-wrapper");
+let index = 0;
+const textElement = document.getElementById("changing-text");
+const wrapperElement = document.getElementById("rotator-wrapper");
 
 function calculateWordWidth(wordText) {
     const hiddenSpan = document.createElement("span");
@@ -103,16 +103,16 @@ function funcfunc(){
     apply();
 }
 
-const words = [
+words = [
     "CRIS",
     "CJ",
     "AYUBAN",
     "PONG"
 ];
 
-let index = 0;
-const textElement = document.getElementById("changing-text");
-const wrapperElement = document.getElementById("rotator-wrapper");
+index = 0;
+textElement = document.getElementById("changing-text");
+wrapperElement = document.getElementById("rotator-wrapper");
 
 function calculateWordWidth(wordText) {
     const hiddenSpan = document.createElement("span");
