@@ -52,7 +52,7 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
 
 
 
-function ff(){
+function funcfunc(){
     const viewport = document.querySelector('.slider-viewport');
     const container = document.getElementById('projectsContainer');
     const cards = container.querySelectorAll('.projects-card');
