@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const words = [
     "CRIS",
     "CJ",
@@ -53,7 +52,7 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
 
 
 
-(function(){
+function(){
     const viewport = document.querySelector('.slider-viewport');
     const container = document.getElementById('projectsContainer');
     const cards = container.querySelectorAll('.projects-card');
@@ -83,6 +82,7 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
         const maxScroll = getMaxScroll();
         scrollPos = Math.min(scrollPos + getStep(), maxScroll); // snaps to show last card fully
         apply();
+        
     }
 
     function prev(){
@@ -101,7 +101,8 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
 
     window.addEventListener('resize', apply);
     apply();
-=======
+}
+
 const words = [
     "CRIS",
     "CJ",
@@ -156,6 +157,7 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
 
 
 
+
 (function(){
     const viewport = document.querySelector('.slider-viewport');
     const container = document.getElementById('projectsContainer');
@@ -204,5 +206,4 @@ window.addEventListener("DOMContentLoaded", initTextRotator);
 
     window.addEventListener('resize', apply);
     apply();
->>>>>>> 6e548de6ce7b138d76cabd8d7cdc550648e5aeba
 })();
